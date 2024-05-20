@@ -1,0 +1,77 @@
+@media screen and (max-width:420px){
+    .register-heading h2{
+        font-size: 1.7rem;
+    }
+    
+    .register-heading h3{
+        font-size: 1.2rem;
+    }
+    .register-form{
+        padding: 1rem 0rem;
+        gap: .5rem;
+        border-top-left-radius: 40%;
+        border-bottom-left-radius: 60%;
+    }
+    .register-container{
+        display: grid;
+        grid-template-rows: repeat(2,1fr);
+        grid-template-columns: repeat(1,1fr);
+    }
+    .input-section input{
+        font-size: .8rem;
+        padding: .5rem;
+    }
+    .button-register button{
+        margin-top: .5rem;
+        padding: .5rem 1rem;
+        font-size: .8rem;
+    }
+    .details-container{
+        width: 100% !important;
+    }
+    .detailss-container{
+        display: flex !important;
+        flex-direction: column;
+        width: 100%;
+    }
+    .home-main{
+        padding: 0rem !important;
+    }
+    .navbar{
+        padding: 1rem 2.5rem !important;
+    }
+    .name-col{
+        display: flex !important;
+        flex-direction: column;
+        width: 100%;
+    }
+}
+/* @media screen and (max-width:800px){
+    .register-heading h2{
+        font-size: 2rem;
+    }
+    
+    .register-heading h3{
+        font-size: 1.5rem;
+    }
+    .register-form{
+        padding: 1rem 0rem;
+        gap: 1rem;
+        border-top-left-radius: 40%;
+        border-bottom-left-radius: 60%;
+    }
+    .register-container{
+        display: grid;
+        grid-template-rows: repeat(2,1fr);
+        grid-template-columns: repeat(1,1fr);
+    }
+    .input-section input{
+        font-size: 1rem;
+        padding: .5rem 1rem;
+    }
+    .button-register button{
+        margin-top: .5rem;
+        padding: .5rem 1rem;
+        font-size: 1.1rem;
+    }
+} */

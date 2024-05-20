@@ -1,0 +1,139 @@
+.main-conatiner{
+    width: 100%;
+    height: 100%;
+}
+.login-container{
+    min-width: 390px;
+    min-height: 390px;
+    border-radius: 12px;
+    background: var(--white);
+    padding: 2rem;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+
+.login-h h1{
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: center;
+}
+.input-box{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    width: 100%;
+    padding: .5rem;
+}
+.input-box input{
+    padding: .5rem;
+    border: 1px solid #a2a2ff;
+    border-radius: 6px;
+    outline: none;
+}
+.inputBtn{
+    padding: .5rem 1rem;
+    border: 1px solid #a2a2ff;
+    background: #a2a2ff;
+    border-radius: 21px;
+    margin-top: 1rem;
+}
+.inputBtn:hover{
+    background-color: #9898ff;
+}
+.inputBtn2{
+    text-align: end;
+    font-size: .8rem;
+    color: #0073ff;
+}
+.signup-container{
+    padding: 1.4rem;
+    background: #ffffff;
+    border-radius: 12px;
+    margin-top: 1rem;
+    text-align: center;
+}
+.signup{
+    color: #0073ff;
+    margin-right: 1rem;
+}
+
+
+
+
+/* register */
+.register-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.register-heading h2{
+    font-size: 2rem;
+    color: #ffffff;
+}
+
+.register-heading h3{
+    font-size: 1.5rem;
+    color: #171616;
+}
+.register-container{
+    width: 80vw;
+    height: 80vh;
+    background: #6161ff;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    border-radius: 21px;
+}
+.register-form{
+    /* padding: 2rem; */
+    background: #eeeeee ;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    padding-right: 2rem;
+    gap: 1rem;
+    border-top-left-radius: 35%;
+    border-bottom-left-radius: 60%;
+    /* background: #05052e; */
+}
+.register-form form{
+    width: 80%;
+    /* background: #0073ff; */
+    text-align: center;
+    /* padding: 1.5rem 1rem; */
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    
+}
+.input-section{
+    width: 100%;
+    /* margin: 1rem 0rem; */
+}
+.input-section input{
+    padding: .5rem 1rem;
+    border: 1px solid #c5c5c5;
+    background: #ffffff;
+    font-size: 1.1rem;
+    width: 100%;
+    border-radius: 4px;
+    outline: none;
+}
+.button-register button{
+    margin-top: 1rem;
+    background: #9898ff;
+    color: #05052e;
+    border-radius: 6px;
+    padding: .5rem 1rem;
+    font-size: 1.2rem;
+}
+.button-register button:hover{
+    background: #a2a2ff;
+}
+
+
+
+.main{
+    width: 100%;
+    height: 100%;
+}

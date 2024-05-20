@@ -1,0 +1,77 @@
+.navbar{
+    background: #446dff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 5rem;
+    font-size: 1.2rem;
+    color: #ffff;
+}
+.menu-nav ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu-nav ul li span{
+    font-size: 2rem;
+}
+
+.home-main{
+    padding: 2rem 5rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+.otpbox{
+    padding: .5rem;
+}
+.otpbox input{
+    padding: .2rem;
+    outline: none;
+    border: 1px solid #8b8bff;
+    border-radius: 6px;
+    font-size: .8rem;
+    margin-left: 1rem;
+    margin-right: 1.5rem ;
+}
+.otpbox button{
+    border: 1px solid #8b8bff;
+    color: #ffffff;
+    background: #8b8bff;
+    padding: .2rem 1rem;
+    border-radius: 6px;
+}
+
+.userdetails{
+    font-size: 1.8rem;
+    color: #8b8bff;
+    font-weight: 500;
+    text-align: center;
+    padding-top: .5rem;
+}
+
+.card-btn,
+.card-btn a{
+    display: flex;
+    justify-content: end;
+    align-items:center;
+    font-size: 1.2rem;
+    /* color: #4343fe; */
+}
+.card-btn a:hover{
+    color: #8b8bff;
+}
+
+.card-container{
+    border: 1px solid #ffff;
+    border-radius: 12px;
+    padding: 1rem;
+    background: #446dff;
+    color: #ffff;
+    font-size: 1.2rem;
+}
+
+.card-content{
+    padding-top: 1rem ;
+}
