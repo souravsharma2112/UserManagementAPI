@@ -47,10 +47,10 @@ function Register() {
                 <input type="email" name="email" placeholder="Email" required autoComplete="off" value={user.email} onChange={handleInput} />
               </div>
               <div className="input-section">
-                <input type="number" name="phone" id="" placeholder="Phone no" required autoComplete="off" value={user.phone} onChange={handleInput} />
+                <input type="number" name="phone" placeholder="Phone no" required autoComplete="off" value={user.phone} onChange={handleInput} />
               </div>
               <div className="input-section">
-                <input type="password" name="pass" id="" placeholder="Password" required autoComplete="off" value={user.pass} onChange={handleInput} />
+                <input type="password" name="pass" placeholder="Password" required autoComplete="off" value={user.pass} onChange={handleInput} />
               </div>
               <div className="button-register text-end">
                 {/* <NavLink to="/"> */}
